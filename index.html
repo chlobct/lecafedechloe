@@ -1,65 +1,112 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Le café de Chloé</title>
-    <link href='style.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href='style.css' rel='stylesheet'>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Le café de Chloé</title>
+  <meta name="description" content="Your next favorite café">
+  <meta property="og:title" content="Le Café de Chloé">
+  <meta property="og:image" content="coffelove.png">
+  <meta property="og:description" content="Your next favorite café">
+  <meta property="og:site_name" content="Le café de Chloé"/>
+  <link href='style.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Thasadith" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-  <body>
-    <div id="banner">
-      <div class="container">
-        <div class="title">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-          <h1>Le café de Chloé</h1>
-          <p>Venez vous faire chouchouter</p>
-       </div>
-    <br>
-    <br>
-    <br>
-    <br>
-       <a class="typeform-share button" href="https://marseille.typeform.com/to/tehWh5" data-mode="popup"target="_blank"><img src="images/open.png" alt="HTML tutorial" style="width:100px"></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-        </a>
-    <br>
-    <br>
-    <br>
-    <br>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img src="images/cafe.png" alt="picture description" width="100">
-              <h2>Chalereux</h2>
-              <p>Des boissons <strong>chaudes</strong></p>
-            </div>
-          </div>
+<body>
+  <div id="banner">
+    <div class="container">
+      <h1>Le café de Chloé</h1>
+      <p>Venez vous faire chouchouter</p>
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img src="images/muffin.png" alt="picture description" width="100">
-              <h2>Doux</h2>
-              <p>Des gourmandises <strong>maison</strong></p>
-            </div>
-          </div>
+      <a class="typeform-share button" href="https://marseille.typeform.com/to/tehWh5" data-mode="popup"target="_blank">
+      <button type="button" class="read-more">Prendre un café</button>
+      <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></a>
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img src="images/food.png" alt="picture description" width="100">
-              <h2>Simple</h2>
-              <p>Des plats <strong>équilibrés</strong></p>
-            </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="carte">
+            <img src="images/cafe.png" alt="picture description" width="80">
+            <h2>Chalereux</h2>
+            <p>Des boissons <strong>chaudes</strong></p>
           </div>
         </div>
 
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="carte">
+            <img src="images/muffin.png" alt="picture description" width="80">
+            <h2>Doux</h2>
+            <p>Des gourmandises <strong>maison</strong></p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="carte">
+            <img src="images/chef.png" alt="picture description" width="80">
+            <h2>Simple</h2>
+            <p>Des plats <strong>équilibrés</strong></p>
+          </div>
+        </div>
       </div>
-  </body>
+    </div>
+  </div>
+
+<div id="description">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 ">
+      <div class="texte">
+        Dans une démarche consciente de la nature qui nous entoure, nous avons choisis de nous approvisionner chez des producteurs locaux, pour travailler les produits que nous offre la terre, dans notre éco-systême le plus proche.
+      <br><br><br>
+        Amoureuses des tartines et des soupes chaudes, de l'odeur des sablés sortis du four, nous sommes aux petits soins pour chaque jour, proposer des petites douceurs pour vos palais.
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 ">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/carrousel1.jpg" alt="Los Angeles" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="images/carrousel2.jpg" alt="Chicago" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="images/carrousel3.jpg" alt="New york" style="width:100%;">
+          </div>
+        </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+</body>
 </html>
+
+<!-- <div class="video-container">
+  <video autoplay loop muted playsinline class="fillWidth">
+    <source src="videos/Honey.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+  </video>
+</div> -->
